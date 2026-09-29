@@ -5,8 +5,19 @@
     margin-left: 30vw;
     margin-top: 20px;
     padding: 8px;
+    background-color: rgb(192, 165, 239);
 }
 #Profile{
     margin-left: 15.5vw;
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text{
+    padding: 5px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.category{
+    text-decoration: underline;
 }
