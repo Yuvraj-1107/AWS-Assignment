@@ -1,0 +1,12 @@
+.container{
+    border: 2px solid black;
+    width: 42vw;
+    height: 95vh;
+    margin-left: 30vw;
+    margin-top: 20px;
+    padding: 8px;
+}
+#Profile{
+    margin-left: 15.5vw;
+    margin-top: 20px;
+}
