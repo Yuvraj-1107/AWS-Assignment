@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #f5efdc;
+  font-family: "Times New Roman", serif;
+}
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4a148c;
+  overflow: hidden;
+}
+.navbar li { float: left; }
+.navbar li.right { float: right; }
+.navbar a {
+  display: block;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: #4be3a6;
+  color: black;
+}
+h1 { text-align: center; margin-top: 40px; }
