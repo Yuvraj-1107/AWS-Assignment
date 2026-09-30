@@ -1,0 +1,24 @@
+.container{
+    border: 2px solid black;
+    width: 42vw;
+    height: 55vh;
+    margin-left: 30vw;
+    margin-top: 20vh;
+    padding: 8px;
+    background-color: rgb(192, 165, 239);
+}
+.text{
+    padding: 5px;
+    padding-bottom: 8px;
+    /* font-size: larger; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.bu{
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.bmd{
+    background-color: aqua;
+    margin-top: 15px;
+    margin-right: 60px;
+}
