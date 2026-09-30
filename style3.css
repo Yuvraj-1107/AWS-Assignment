@@ -1,0 +1,26 @@
+body {
+  background-color: #f5efdc;
+  font-family: "Times New Roman", serif;
+}
+/* Box model: width, margin, padding, border, box-shadow */
+.card {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #3b2a3b;
+  background-color: #d9c2dc;
+  box-shadow: 8px 8px 15px gray;
+  text-align: center;
+}
+.card img { width: 100%; }
+.desc { color: #444; }
+.old { text-decoration: line-through; color: red; }
+.new { font-weight: bold; font-size: 22px; color: green; }
+button {
+  background-color: #4be3a6;
+  border: 2px solid #3b2a3b;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
