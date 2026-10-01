@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5efdc;
+  font-family: "Times New Roman", serif;
+}
+.login-box {
+  width: 300px;
+  padding: 25px;
+  border: 2px solid #3b2a3b;
+  background-color: #d9c2dc;
+  text-align: center;
+}
+input[type="text"], input[type="password"] {
+  width: 90%;
+  padding: 8px;
+}
+button {
+  background-color: #4be3a6;
+  border: 2px solid #3b2a3b;
+  padding: 8px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
