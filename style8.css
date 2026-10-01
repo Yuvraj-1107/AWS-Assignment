@@ -1,0 +1,26 @@
+body {
+  background-color: #f5efdc;
+  font-family: "Times New Roman", serif;
+}
+h1, h2, .room { text-align: center; margin: 8px; }
+table {
+  width: 98%;
+  margin: 15px auto;
+  border-collapse: collapse;
+  background-color: #d9c2dc;
+  font-size: 14px;
+}
+th, td {
+  border: 2px solid #3b2a3b;
+  padding: 8px;
+  text-align: center;
+}
+th { background-color: #4a148c; color: white; }
+.iilp { background-color: #ffe0b2; }
+.lab { background-color: #c8e6c9; }
+.lunch {
+  background-color: #ffcc80;
+  font-weight: bold;
+  letter-spacing: 4px;
+  writing-mode: vertical-rl;
+}
