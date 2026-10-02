@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  background-color: #f5efdc;
+}
+header { background-color: #4a148c; color: white; text-align: center; padding: 10px; }
+nav { background-color: #7e57c2; text-align: center; }
+nav a { display: inline-block; color: white; padding: 12px 20px; text-decoration: none; }
+nav a:hover { background-color: #4be3a6; color: black; }
+.container { display: flex; }
+main { width: 70%; padding: 20px; background-color: #d9c2dc; }
+aside { width: 30%; padding: 20px; background-color: #ffe0b2; }
+footer { background-color: #4a148c; color: white; text-align: center; padding: 5px; }
+
+@media (max-width: 767px) {
+  .container { flex-direction: column; }
+  main, aside { width: auto; }
+}
